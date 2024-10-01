@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 350px;
+    background-color: #62592c;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+.content h1 {
+    color: #34495e;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    background-color: #beb58f;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.fundraiser-item {
+   background-color: #efe4b1;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.fundraiser-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fundraiser-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.fundraiser-details-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fundraiser-details p {
+    margin: 0;
+}
+
+
+.fundraiser-status {
+    color: #2da237;
+}
+
+.fundraiser-logo {
+    width: 50px;
+}
+
+#fundraiser-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #62592c;
+    color: white;
+    padding: 10px 20px;
+}
+
+.empty {
+    color: #e11f1f;
+    font-weight: bold;
+    font-size: 22px;
+}
